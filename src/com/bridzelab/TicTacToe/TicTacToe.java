@@ -2,11 +2,13 @@ package com.bridzelab.TicTacToe;
 
 public class TicTacToe
 {
+	char[] board = new char[10];
 		public void Board()
 		{
-			char[] board = new char[10];
+			
 			for(int i=1; i<board.length; i++)
 			{
+				board[i]= '';
 				
 			}
 		}
@@ -16,7 +18,7 @@ public class TicTacToe
 		// TODO Auto-generated method stub
 		TicTacToe obj = new TicTacToe();
 		obj.Board();
-		System.out.println("*********adding the Tic Tac Toe Game on Bpard");
+		System.out.println("*********adding the Tic Tac Toe Game on Board***********");
 	}
 
 }
