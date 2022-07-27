@@ -9,7 +9,8 @@ public class TicTacToe
 	public static char ComputerLetter = ' ';
 
 	   public static void main(String[] args) {
-		   System.out.println("************Welcome to TicTacToe on workshop platform*******************\"");	       char[] board = createBoard();
+		   System.out.println("************Welcome to TicTacToe on workshop platform*******************\"");	      
+		   char[] board = createBoard();
 	       char UserLetter = chooseLetter();
 	       char ComputerLetter;
 	       if(UserLetter=='X')
@@ -35,7 +36,7 @@ public class TicTacToe
 
 	        while (true) {
 	            System.out.println("make a move to a desired location in the  Tic tac toe board");
-	            System.out.println("Enter the next move? (1-9)");
+	            System.out.println("***********Enter the next move? (1-9)************");
 	            int index = sc.nextInt();
 	            if (Arrays.asList(validCells).contains(index))
 	                return index;
