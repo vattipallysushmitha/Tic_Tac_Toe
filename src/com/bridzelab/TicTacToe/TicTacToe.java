@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class TicTacToe
 {
 	
-	
+	public static char UserLetter = ' ';
+	public static char ComputerLetter = ' ';
+
 
 		 public static void main(String[] args)
 		 {
